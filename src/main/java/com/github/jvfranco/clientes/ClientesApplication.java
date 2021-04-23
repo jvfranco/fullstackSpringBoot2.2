@@ -16,7 +16,7 @@ public class ClientesApplication {
 	public CommandLineRunner run(@Autowired ClienteRepository repository) {
 		return args -> {
 			Cliente cliente = Cliente.builder()
-					.cpf("12345678910")
+					.cpf("38458163845")
 					.nome("Fulano")
 					.build();
 			repository.save(cliente);
